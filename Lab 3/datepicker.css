@@ -1,0 +1,65 @@
+body {
+    background-image: url("photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table,
+tr,
+td {
+    width: 40px;
+    height: 40px;
+    border: 20px solid white;
+    text-align: center;
+    cursor: default;
+    border-color: black;
+    backdrop-filter: blur(20px);
+    transition: 0s 1s;
+    border: 1px solid;
+    border-color: black;
+}
+
+table {
+    width: 450px;
+    display: center;
+    color: black;
+}
+
+body>h1 {
+    font-family: "Trendex Light SSi";
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: bold;
+    color: #6eb5ff;
+    border-color: rgba(105, 105, 105, .0);
+    backdrop-filter: blur(80px);
+}
+
+
+.nextmonthbutton:active {
+    color: #6eb5ff;
+    transition: 0s;
+}
+
+.prevmonthbutton:active {
+    color: #6eb5ff;
+    transition: 0s;
+}
+
+.inactivedate {
+    color: #6eb5ff;
+}
+
+#RightArrow {
+    height: 70px;
+}
+.selectdate{
+    border-color: #6eb5ff;
+    color: #6eb5ff;
+    border: 1px solid;
+}
