@@ -1,0 +1,7 @@
+.Paper {
+  background-color: rgb(190, 216, 250);
+  border-radius: 20px;
+  height: 90%;
+  padding: 30px;
+  overflow-y: hidden;
+}

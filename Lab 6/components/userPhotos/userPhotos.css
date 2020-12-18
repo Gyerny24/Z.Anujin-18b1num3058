@@ -1,0 +1,26 @@
+.PhotoPaper {
+  background-color: rgb(190, 216, 250);
+  border-radius: 20px;
+  height: 90%;
+  padding: 30px;
+  overflow-x: hidden;
+}
+.commentSection {
+  min-width: 800px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.commentDisc {
+  min-width: 200px;
+  max-height: 150px;
+  overflow-x: hidden;
+}
+
+.PhotoPaper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
